@@ -1,0 +1,19 @@
+14.05.2014 start project, skeleton, tests (1.0.0.1)
+03.11.2014 add download server (1.0.1.0)
+15.11.2014 add logger (1.0.2.0)
+16.11.2014 add cleaner (1.0.3.0)
+
+TODO:
++add logger
++delete files in a crontab after a timeout period (usualy 24/48h)
+find /path/to/files/* -mtime +1 -exec rm {} \;
+(http://www.howtogeek.com/howto/ubuntu/delete-files-older-than-x-days-on-linux)
+-upload files to user accounts
+-quota
+-md5 passwords in secrets file
+-mail me my password
+-handle very big files. for now only almost 2G are transferred.
+dd if=/dev/zero of=test_file bs=1M count=1920
+1920+0 records in
+1920+0 records out
+2013265920 bytes (2.0 GB) copied, 7.85773 s, 256 MB/s
