@@ -3,9 +3,9 @@ upload
 
 **upload** - files upload service in golang.
 
-![screenshot from 2014-08-31 12 02 23](https://cloud.githubusercontent.com/assets/6298396/4101485/cfd8bb74-30ed-11e4-8061-75ac3df336a1.png)
-
 [![last-version-blue](https://cloud.githubusercontent.com/assets/6298396/5602522/8967405e-935b-11e4-8777-de3623ed6ad7.png)](https://github.com/geosoft1/upload/archive/master.zip)
+
+![screenshot from 2014-08-31 12 02 23](https://cloud.githubusercontent.com/assets/6298396/4101485/cfd8bb74-30ed-11e4-8061-75ac3df336a1.png)
 
 Useful if you want to send big files to others and common mail servers don't accept
 files over a standard length (usually a few MB).
