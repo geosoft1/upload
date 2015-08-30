@@ -12,7 +12,7 @@ files over a standard length (usually a few MB).
 
 * **Using**
     * Compile. See [here](https://github.com/geosoft1/tools) how.
-    * Copy `` upload `` folder in your account on your Linux machine.
+    * Copy `` upload `` folder in your account on your Ubuntu machine.
     * Run  `` ./upload `` file from upload folder.
     * Open [http://localhost:8080](http://localhost:8080) in browser. Replace localhost with server ip if you access upload service from another computer. If you are behind a router remember to forward 8080 port. Change this port as needed.
     * Use user and password from `` secrets `` file. Change this file as needed.	
