@@ -17,6 +17,7 @@
 package main
 
 import (
+	"crypto/subtle"
 	"errors"
 	"fmt"
 	"html/template"
@@ -43,7 +44,8 @@ func checkSecrets(username, password string) (err error) {
 	}
 	for {
 		n, _ = fmt.Fscanf(file, "%s\t%s", &usernameFromFile, &passwordFromFile)
-		if username == usernameFromFile && password == passwordFromFile {
+		if username == usernameFromFile &&
+			subtle.ConstantTimeCompare([]byte(password), []byte(passwordFromFile)) == 1 {
 			return nil
 		}
 		if n == 0 {
