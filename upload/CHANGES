@@ -2,6 +2,7 @@
 03.11.2014 add download server (1.0.1.0)
 15.11.2014 add logger (1.0.2.0)
 16.11.2014 add cleaner (1.0.3.0)
+08.02.2016 add constant time comparison. thanks to mholt <github.com/mholt>
 
 TODO:
 +add logger
