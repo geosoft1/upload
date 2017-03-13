@@ -35,9 +35,8 @@ Use cron to keep server clean
 and add following line to clean files older than 24h
 
     MAILTO=""
-    * * * * * find /home/user/cws/upload/files/* -mtime +1 -exec rm {} \;
+    * * * * * find /home/george/src/github.com/geosoft1/upload/files/* -mtime +1 -exec rm {} \;
 
-Change **user** with your linux user. **cws** means custom web services and it's my convention. clear MAILTO to avoid sending mails to root if no files to delete.
-Feel free to use any location.
+Clear MAILTO to avoid sending mails to root if no files to delete. Feel free to use any location.
 
 No root rights are required.
